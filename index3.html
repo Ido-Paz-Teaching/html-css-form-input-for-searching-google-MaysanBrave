@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>google using CSS design</title> 
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form action="https://google.co.il/search" target="_blank">
+        <label for="q"> search text:</label>
+        <input vrequired placeholder="enter text" type="text" name="q" id="q" >
+        <label for="as_qdr">that was updated in:</label>
+            <select id="as_qdr" name="as_qdr">
+                <option>previos seven day</option>
+                <option>previos 24 hours</option>
+                <option>previos month</option>
+                <option>any time</option>
+                <option>past year</option>
+            </select>
+        <label for="lr">search only pages written in hebrew:</label>
+        <input type="checkbox" id="lr" name="lr" value="lang_iw">
+        <label for="num">number of result:</label>
+        <input type="number" id="num" name="num" placeholder="enter n"  min="1" max="25">
+        <input type="submit" formtarget="_blank" value="Ask google">
+    </form>
+</body>
+
+</html>
